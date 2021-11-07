@@ -721,3 +721,40 @@ strong {
   }
 }
 
+.modal-button {
+  background-color: #ffc107;
+  font-weight: 500;
+  border-color: grey;
+}
+
+.btn-close {
+  content: "\f307";
+}
+
+/* This styles the aside container */
+#aSide {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  top: calc(50% - 250px);
+  right: 7%;
+}
+
+/* This styles the 3D object inserted in the aside container */
+#aSide model-viewer {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+}
+
+.modal-p {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.card-bg {
+  background-color: rgb(250, 250, 250);
+}
